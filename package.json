@@ -1,0 +1,17 @@
+{
+  "name": "rescript-gas-starter",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "rescript && rollup --config",
+    "clean": "rescript clean",
+    "deploy": "clasp push"
+  },
+  "dependencies": {
+    "@rescript/core": "*",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "rescript": "*",
+    "rollup": "^2.0.0",
+    "rollup-plugin-strip-final-exports": "^1.0.0"
+  }
+}
